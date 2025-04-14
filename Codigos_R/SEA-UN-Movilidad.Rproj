@@ -1,0 +1,16 @@
+Version: 1.0
+ProjectId: 61c65a1f-c33b-4861-a09c-75c0b8ba0e7d
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+ProjectName: SEA_Movilidad
