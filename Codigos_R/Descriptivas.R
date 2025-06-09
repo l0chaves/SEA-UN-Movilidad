@@ -9,7 +9,8 @@ library(ggplot2)
 library(leaflet)
 library(colorRamps)
 
-zat_shp <- st_read("Datos_Originales/Zonificacion_EODH/ZAT2023/ZAT2023.shp")
+zat_shp <- st_read("Datos_Originales/Zonificacion_EODH/ZAT2023/ZAT2023.shp") %>%
+  st_transform(crs = 4326)
 df_viajes <- read_excel("Datos_Originales/Base_datos_procesada_EODH/XLSX/d. Modulo viajes.xlsx")
 df_etapas <- read_excel("Datos_Originales/Base_datos_procesada_EODH/XLSX/e. Modulo etapas.xlsx")
 
